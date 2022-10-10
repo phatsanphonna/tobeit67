@@ -4,10 +4,10 @@ import Hero from "../components/hero/hero";
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <>
       <Hero />
       <Middle />
-    </div>
+    </>
   );
 };
 

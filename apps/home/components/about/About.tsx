@@ -2,7 +2,7 @@ import Image from "next/image";
 import Agenda from "../Agenda/Agenda";
 import Compilation from "../carousel/Carousel";
 
-const Middle = () => {
+const Middle: React.FC = () => {
   return (
     <div
       //   style={{
@@ -12,7 +12,7 @@ const Middle = () => {
     >
       <img
         src="/assets/wave-about.svg"
-        className="aboslute top-0 -translate-y-full left-0 w-full h-full"
+        className="-translate-y-[99%] w-[101%]"
       />
       <article className="grid place-items-center px-8 my-12">
         <div

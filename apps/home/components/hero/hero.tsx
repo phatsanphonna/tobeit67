@@ -1,4 +1,4 @@
-const Hero = () => {
+const Hero: React.FC = () => {
   return (
     <section className="bg-gradient-to-t from-[#007577] via-[#007577] to-[#FB8763] w-full flex flex-col justify-center gap-y-4 px-8 pt-36">
       {/* TItle */}
